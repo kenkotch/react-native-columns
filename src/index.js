@@ -1,3 +1,4 @@
+import React from 'react'
 import {
   Dimensions,
   Slider,
@@ -5,12 +6,23 @@ import {
   Text,
   View
 } from 'react-native'
-import styles from './Columns.style'
+import PropTypes from 'prop-types'
+import styles from './index.style'
 
 class Columns extends React.Component {
+  static propTypes = {
+    leftCol: PropTypes.element,
+    rightCol: PropTypes.element
+  }
+
+  static defaultProps = {
+    leftCol: <Text>Left Column</Text>,
+    rightCol: <Text>Right Column</Text>
+  }
+
   constructor() {
     super()
-    this.state = {\
+    this.state = {
       height: Dimensions.get('window').height,
       leftColumnWidth: Dimensions.get('window').width * 0.35,
       max: Dimensions.get('window').width * 0.75,
@@ -30,7 +42,6 @@ class Columns extends React.Component {
   }
 
   render() {
-    return (
       const {
         height,
         leftColumnWidth,
@@ -61,9 +72,7 @@ class Columns extends React.Component {
 
             {/* Left Column */}
             <View style={ styles.leftColumnContainer }>
-              <Text>
-                left side
-              </Text>
+              { this.props.leftCol }
             </View>
 
             {/* Center Column (mid-line) */}
@@ -71,9 +80,7 @@ class Columns extends React.Component {
 
             {/* Right Column */}
             <View style={ [styles.rightColumn, { width: this.state.rightColumnWidth }] }>
-              <Text>
-                right side
-              </Text>
+              { this.props.rightCol }
             </View>
           </View>
         </View>

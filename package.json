@@ -1,8 +1,8 @@
 {
   "name": "react-native-columns",
   "version": "1.0.0",
-  "description": "user resizable columns for react native",
-  "main": "index.js",
+  "description": "User resizable columns for react native",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,21 +11,25 @@
     "url": "git+https://github.com/kenkotch/react-native-columns.git"
   },
   "keywords": [
+    "android",
+    "column",
+    "columns",
+    "ios",
     "react-native",
     "react-native-component",
-    "columns",
-    "column",
-    "resize",
-    "android",
-    "ios"
+    "resize"
   ],
   "author": "Ken Kotch <hello@ken.uno>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kenkotch/react-native-columns/issues"
   },
+  "homepage": "https://github.com/kenkotch/react-native-columns#readme",
   "peerDependencies": {
-    "react-native": ">=0.55.0"
+    "react": "^16.0.0-alpha.12",
+    "react-native": "^0.44.0"
   },
-  "homepage": "https://github.com/kenkotch/react-native-columns#readme"
+  "devDependencies": {
+    "prop-types": "^15.6.2"
+  }
 }
