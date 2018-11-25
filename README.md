@@ -6,14 +6,18 @@
 User resizable columns component for react native
 
 ## Instalation
-```sh
-yarn add react-native-columns```
+```
+yarn add react-native-columns
+```
+
 OR (npm install does not work consistently)
-```sh
-npm i -S react-native-columns```
+
+```
+npm i -S react-native-columns
+```
 
 ## Example
-```js
+```
 import React from 'react'
 import {
   Text,
