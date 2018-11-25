@@ -2,7 +2,6 @@ import React from 'react'
 import {
   Dimensions,
   Slider,
-  StyleSheet,
   Text,
   View
 } from 'react-native'
@@ -66,9 +65,9 @@ class Columns extends React.Component {
         {/* Width Control */}
         <View style={ [styles.sliderContainer, { width: width * 0.65 }] }>
           <Slider
-            maximumValue={ max }
+            maximumValue={ width * (max/100) }
             maximumTrackTintColor="transparent"
-            minimumValue={ min }
+            minimumValue={ width * (min/100) }
             minimumTrackTintColor="transparent"
             onValueChange={ value => this.widthChange(value) }
             step={ 0 }

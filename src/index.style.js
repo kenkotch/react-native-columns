@@ -32,7 +32,8 @@ const styles = {
     borderLeftWidth: 0,
     borderColor: 'transparent',
     marginLeft: 10,
-    marginBottom: 40
+    marginBottom: 40,
+    marginTop: 15
   },
   slider: {
     height: 20
