@@ -1,6 +1,6 @@
 {
   "name": "react-native-columns",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "User resizable columns for react native",
   "main": "src/index.js",
   "scripts": {

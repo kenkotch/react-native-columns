@@ -46,7 +46,8 @@ export default class Main extends React.Component {
       />
     )
   }
-}```
+}
+```
 
 ## Props
 | property    | default                     | type                    | description                           |
@@ -54,8 +55,8 @@ export default class Main extends React.Component {
 | min         |   20                        |            number x/100 | left column minimum % of screen width |
 | max         |   75                        |            number x/100 | left column maximum % of screen width |
 | initialLeft | 0.35                        | decimal between 0 and 1 | initial left col width x/1            |
-| leftCol     | `<Text>Left Column</Text>`  |         react component | react component                       |
-| rightCol    | `<Text>Right Column</Text>` |         react component | react component                       |
+| leftCol     | <Text>Left Column</Text>  |         react component | react component                       |
+| rightCol    | <Text>Right Column</Text> |         react component | react component                       |
 
 
 #### currently only supports full screen width. PR's welcome
