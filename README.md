@@ -1,4 +1,4 @@
-![version](https://img.shields.io/badge/version-1.0.0-green.svg)
+![version](https://img.shields.io/badge/version-1.0.2-green.svg)
 ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)
 
