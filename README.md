@@ -1,11 +1,11 @@
-![version](https://img.shields.io/badge/version-1.0.2-green.svg)
+![version](https://img.shields.io/badge/version-1.0.5-green.svg)
 ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)
 
 # react-native-columns
 User resizable columns component for react native
 
-## Instalation
+## Installation
 ```
 yarn add react-native-columns
 ```
@@ -59,5 +59,5 @@ export default class Main extends React.Component {
 | rightCol    | <Text>Right Column</Text> |         react component | react component                       |
 
 
-#### currently only supports full screen width. PR's welcome
+#### currently only supports full screen width. PR's welcome (to develop branch please)
 #### supports iOS and Android
