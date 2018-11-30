@@ -5,6 +5,8 @@
 # react-native-columns
 User resizable columns component for react native
 
+![](react-native-columns.gif)
+
 ## Installation
 ```
 yarn add react-native-columns
